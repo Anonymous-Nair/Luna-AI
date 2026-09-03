@@ -1,0 +1,22 @@
+# Core
+numpy
+requests
+websockets
+sounddevice
+soundfile
+
+# Continuous listening (voice activity detection)
+webrtcvad-wheels   # Windows prebuilt wheel. On Linux/Mac use: webrtcvad
+
+# Optional: manual mute/wake hotkey (F9) as a safety net
+keyboard
+
+# Speech-to-text
+faster-whisper
+
+# Text-to-speech
+qwen-tts
+
+# Torch -- install separately with the correct CUDA index for your GPU, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# torch
